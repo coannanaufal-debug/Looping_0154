@@ -24,7 +24,7 @@ int main(){
     }
     cout << "Bilangan acak while yang terakhir = " << x << endl;
     cout << endl;
-    
+
     // Perulangan dengan DO...WHILE
     cout << "PERULANGAN DO...WHILE" << endl;
     x = 1 + rand() % 10;
@@ -35,3 +35,17 @@ int main(){
 
     cout << "Bilangan acak do-while yang terakhir = " << x << endl;
     cout << endl;
+    return 0;
+}
+
+#include <iostream>
+using namespace std;
+
+int main(){
+    float nilB, nilM, rerata;
+    string status;
+
+    cout << "Masukkan nilai Matematika = ";
+    cin >> nilM;
+    cout << "Masukkan nilai Bahasa Inggris = ";
+    cin >> nilB;
